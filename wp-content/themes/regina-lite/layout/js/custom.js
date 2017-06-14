@@ -16,6 +16,8 @@ jQuery(document).ready(function($){
         $('.bxslider').each(function(){
             $(this).bxSlider({
                 mode: 'fade',
+                auto: true,
+                pause: 8000,
                 nextText: '<span class="nc-icon-glyph arrows-1_bold-right"></span>',
                 prevText: '<span class="nc-icon-glyph arrows-1_bold-left"></span>'
             })

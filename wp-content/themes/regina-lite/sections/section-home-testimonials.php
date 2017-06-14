@@ -69,8 +69,8 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 ?>
 <section id="home-testimonials">
 	<div class="testimonials">
-		<span class="icon nc-icon-glyph ui-2_chat-round-content"></span>
 		<div id="testimonials-slider">
+                    <h1>Infraestrutura</h1>
 			<ul class="bxslider">
 				<?php if ( $testimonials_testimonial1_description || $testimonials_testimonial1_image || $testimonials_testimonial1_name || $testimonials_testimonial1_position ): ?>
 					<li>
@@ -78,7 +78,7 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 							<p class="quote"><?php echo esc_html( $testimonials_testimonial1_description ); ?></p>
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial1_image ): ?>
-							<img src="<?php echo esc_url( $testimonials_testimonial1_image ); ?>" alt="<?php echo esc_attr( $image_meta_1['_wp_attachment_image_alt']['0'] ); ?>" width="90">
+                                                        <img src="<?php echo esc_url( $testimonials_testimonial1_image ); ?>" alt="<?php echo esc_attr( $image_meta_1['_wp_attachment_image_alt']['0'] ); ?>">
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial1_name ): ?>
 							<h5 class="name"><?php echo esc_html( $testimonials_testimonial1_name ); ?></h5>
@@ -94,7 +94,7 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 							<p class="quote"><?php echo esc_html( $testimonials_testimonial2_description ); ?></p>
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial2_image ): ?>
-							<img src="<?php echo esc_url( $testimonials_testimonial2_image ); ?>" alt="<?php echo esc_attr( $image_meta_2['_wp_attachment_image_alt']['0'] ); ?>" width="90">
+							<img src="<?php echo esc_url( $testimonials_testimonial2_image ); ?>" alt="<?php echo esc_attr( $image_meta_2['_wp_attachment_image_alt']['0'] ); ?>">
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial2_name ): ?>
 							<h5 class="name"><?php echo esc_html( $testimonials_testimonial2_name ); ?></h5>
@@ -110,7 +110,7 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 							<p class="quote"><?php echo esc_html( $testimonials_testimonial3_description ); ?></p>
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial3_image ): ?>
-							<img src="<?php echo esc_url( $testimonials_testimonial3_image ); ?>" alt="<?php echo esc_attr( $image_meta_3['_wp_attachment_image_alt']['0'] ); ?>" width="90">
+							<img src="<?php echo esc_url( $testimonials_testimonial3_image ); ?>" alt="<?php echo esc_attr( $image_meta_3['_wp_attachment_image_alt']['0'] ); ?>">
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial3_name ): ?>
 							<h5 class="name"><?php echo esc_html( $testimonials_testimonial3_name ); ?></h5>
@@ -126,7 +126,7 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 							<p class="quote"><?php echo esc_html( $testimonials_testimonial4_description ); ?></p>
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial4_image ): ?>
-							<img src="<?php echo esc_url( $testimonials_testimonial4_image ); ?>" alt="<?php echo esc_attr( $image_meta_4['_wp_attachment_image_alt']['0'] ); ?>" width="90">
+							<img src="<?php echo esc_url( $testimonials_testimonial4_image ); ?>" alt="<?php echo esc_attr( $image_meta_4['_wp_attachment_image_alt']['0'] ); ?>">
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial4_name ): ?>
 							<h5 class="name"><?php echo esc_html( $testimonials_testimonial4_name ); ?></h5>
@@ -142,7 +142,7 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 							<p class="quote"><?php echo esc_html( $testimonials_testimonial5_description ); ?></p>
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial5_image ): ?>
-							<img src="<?php echo esc_url( $testimonials_testimonial5_image ); ?>" alt="<?php if ( $testimonials_testimonial5_name ): echo esc_attr( $testimonials_testimonial5_name ); endif; ?>" title="<?php if ( $testimonials_testimonial5_name ): echo esc_attr( $testimonials_testimonial5_name ); endif; ?>" width="90">
+							<img src="<?php echo esc_url( $testimonials_testimonial5_image ); ?>" alt="<?php if ( $testimonials_testimonial5_name ): echo esc_attr( $testimonials_testimonial5_name ); endif; ?>" title="<?php if ( $testimonials_testimonial5_name ): echo esc_attr( $testimonials_testimonial5_name ); endif; ?>">
 						<?php endif; ?>
 						<?php if ( $testimonials_testimonial5_name ): ?>
 							<h5 class="name"><?php echo esc_html( $testimonials_testimonial5_name ); ?></h5>
@@ -153,7 +153,13 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 					</li>
 				<?php endif; ?>
 			</ul>
+                    
 		</div><!--#testimonials-slider-->
+                <!-- BOTÃO VEJA MAIS-->
+				<div class="col-xs-12 text-center">
+					<a href="infraestrutura" class="button white outline">Veja Mais
+						<span class="nc-icon-glyph arrows-1_bold-right"></span></a>
+				</div>
 	</div><!--.testimonials-->
 	<ul class="images">
 		<?php if ( $testimonials_general_image1 ): ?>

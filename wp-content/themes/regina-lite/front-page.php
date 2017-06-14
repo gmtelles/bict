@@ -26,6 +26,10 @@ else:
 	$blog_news_general_show    = get_theme_mod( 'regina_lite_news_general_show', 1 );
 
 	get_template_part( 'sections/section', 'home-slider' );
+        
+        if ( $blog_news_general_show == 1 ):
+		get_template_part( 'sections/section', 'news' );
+	endif;
 
 	if ( $subheader_features_show == 1 ):
 		get_template_part( 'sections/section', 'home-features' );
@@ -43,10 +47,7 @@ else:
 		get_template_part( 'sections/section', 'home-speak' );
 	endif;
 
-	if ( $blog_news_general_show == 1 ):
-		get_template_part( 'sections/section', 'news' );
-	endif;
-
+	
 endif;
 ?>
 <?php get_footer(); ?>

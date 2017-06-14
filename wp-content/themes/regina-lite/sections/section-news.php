@@ -68,7 +68,7 @@ if ( $regina_lite_news_section_show == 1 ) {
 				echo '</a>';
 			}
 			echo '<div class="caption">';
-			echo '<div class="mt-date">' . get_the_date( get_option( 'date-format' ), $regina_lite_q->post->ID ) . '</div>';
+			echo '<div class="mt-date">' . get_the_date( get_option( 'date-format' ), $regina_lite_q->post->ID ) . get_the_time(get_option('time-format'), $regina_lite_q->post->ID) .'</div>';
 			echo '<h4><a class="mt-blogpost-title" href="' . esc_url( get_the_permalink() ) . '">' . esc_html( get_the_title() ) . '</a></h4>';
 			echo '<p>' . the_excerpt() . '</p>';
 			echo '</div><!--/.caption-->';

@@ -10794,6 +10794,45 @@ ol li {
 #call-out h1, #call-out p {
 	color: #fff; }
 
+#section-news {
+    margin: 0; padding: 30px 0;
+}
+
+#section-news .section-info {
+    margin: 0; padding: 0;
+}
+
+#section-news .image-post {
+    max-height: 200px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#section-news img {
+    max-height: 180px;
+    width: auto;
+}
+
+#section-news .mt-date {
+    color: #808080;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#section-news h4 {
+    min-height: 50px;
+}
+
+#section-news .caption p {
+    font-size: 0.9em;
+    min-height: 130px;
+}
+
+#section-news .read-more-wrapper {
+    
+}
+
 #services-title-block .section-info {
     font-size: 15px;
     color: #575757;

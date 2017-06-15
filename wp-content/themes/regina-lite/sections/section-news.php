@@ -31,6 +31,7 @@ if ( $regina_lite_limit == 1 ) {
 $page_which_uses_blog_template = regina_lite_get_page_id_by_template();
 
 if ( $regina_lite_news_section_show == 1 ) {
+        echo '<div class="clear"></div>';
 	echo '<section class="bg-block-white" id="section-news">';
 	echo '<div class="container">';
 	echo '<div class="row">';
@@ -60,17 +61,24 @@ if ( $regina_lite_news_section_show == 1 ) {
 		echo '<div class="mt-blogpost-wrapper ' . $regina_lite_cols . '"  data-slider-items="' . $regina_lite_news_section_no_posts_per_slide . '">';
 		while ( $regina_lite_q->have_posts() ) {
 			$regina_lite_q->the_post();
+                        
 			echo '<div class="' . $regina_lite_news_size . '" style="width: 100%;">';
 			echo '<div class="thumbnail">';
 			if ( has_post_thumbnail( $regina_lite_q->post->ID ) ) {
+                                echo '<div class="image-post">';
 				echo '<a href="' . get_the_permalink() . '">';
 				echo get_the_post_thumbnail( $regina_lite_q->post->ID, 'regina-lite-homepage-blog-posts' );
 				echo '</a>';
+                                echo '</div>';
 			}
 			echo '<div class="caption">';
 			echo '<div class="mt-date">' . get_the_date( get_option( 'date-format' ), $regina_lite_q->post->ID ) . " - ". get_the_time(get_option('time-format'), $regina_lite_q->post->ID) .'</div>';
 			echo '<h4><a class="mt-blogpost-title" href="' . esc_url( get_the_permalink() ) . '">' . esc_html( get_the_title() ) . '</a></h4>';
-			echo '<p>' . the_excerpt() . '</p>';
+			echo '<p>' . get_the_excerpt() . '</p>';
+                        $readMoreLink = '<div class="read-more-wrapper">';
+                        $readMoreLink .= '<a class="link small" href="' . esc_url( get_the_permalink() ) . '" role="button">' . __( 'Detalhes', 'regina-lite' ) . '<span class="nc-icon-glyph arrows-1_bold-right"></span></a>';
+                        $readMoreLink .= '</div>';
+                        echo $readMoreLink;
 			echo '</div><!--/.caption-->';
 			echo '</div><!--/.thumbnail-->';
 			echo '</div> <!--/.col-sm-6.col-md-4-->';

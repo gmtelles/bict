@@ -222,7 +222,7 @@ if ( ! function_exists( 'regina_lite_prefix_upsell_notice' ) ) {
 # Custom Excerpt Length
 #
 function regina_lite_excerpt_length( $length ) {
-	return 25;
+	return 30;
 }
 
 add_filter( 'excerpt_length', 'regina_lite_excerpt_length', 999 );
@@ -231,10 +231,10 @@ add_filter( 'excerpt_length', 'regina_lite_excerpt_length', 999 );
 # Custom Read More
 #
 function regina_lite_excerpt_more( $more ) {
-
-	$return_string = '<div class="read-more-wrapper">';
-	$return_string .= '<a class="link small" href="' . esc_url( get_the_permalink() ) . '" role="button">' . __( 'Read more', 'regina-lite' ) . '<span class="nc-icon-glyph arrows-1_bold-right"></span></a>';
-	$return_string .= '</div>';
+        $return_string = ' ...';
+	//$return_string = '...<div class="read-more-wrapper">';
+	//$return_string .= '<a class="link small" href="' . esc_url( get_the_permalink() ) . '" role="button">' . __( 'Detalhes', 'regina-lite' ) . '<span class="nc-icon-glyph arrows-1_bold-right"></span></a>';
+	//$return_string .= '</div>';
 
 
 	return $return_string;

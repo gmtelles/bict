@@ -20,5 +20,5 @@
     <div class="body">
         <?php the_excerpt(); ?>
     </div>
-    <a href="<?php the_permalink(); ?>" title="<?php _e( 'Read more', 'regina-lite' ); ?>" class="read-more link small"><?php _e( 'Read more', 'regina-lite' ); ?> <span class="nc-icon-glyph arrows-1_bold-right"></span></a>
+    <a href="<?php the_permalink(); ?>" title="<?php _e( 'Leia Mais', 'regina-lite' ); ?>" class="read-more link small"><?php _e( 'Leia Mais', 'regina-lite' ); ?> <span class="nc-icon-glyph arrows-1_bold-right"></span></a>
 </article><!--.post-->

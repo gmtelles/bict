@@ -11,6 +11,7 @@
  *
  * @package regina-lite
  */
+require_once( 'functions.php' );
 ?>
 <?php get_header(); ?>
 <?php get_template_part( 'sections/section', 'page-header' ); ?>

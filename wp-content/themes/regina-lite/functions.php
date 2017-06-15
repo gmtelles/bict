@@ -251,8 +251,3 @@ function regina_lite_move_comment_field_to_bottom( $fields ) {
 
 	return $fields;
 }
-
-function custom_excerpt_length() {
-    return 5;
-}
-add_filter('excerpt_length', 'custom_excerpt_length');

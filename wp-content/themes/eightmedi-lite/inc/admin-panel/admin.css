@@ -21,7 +21,7 @@ label.row-element {
 }
 
 label.row-element.more-detail{
-  color: ##0079fc;
+  color: #0079fc;
 }
 .user_sticky_note a:hover{
   color: #f00;
@@ -67,7 +67,7 @@ label.row-element.more-detail{
     text-align: center;
 }
 .sticky_info_row a {
-    color: ##cf2227;
+    color: #cf2227;
 }
 
 .upgrade-pro{

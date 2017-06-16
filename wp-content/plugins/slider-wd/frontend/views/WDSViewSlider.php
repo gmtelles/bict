@@ -273,8 +273,7 @@ class WDSViewSlider {
           height: <?php echo $media_rl_butt_size; ?>px;
           font-size: <?php echo $media_rl_butt_size; ?>px;
           width: <?php echo $media_rl_butt_size; ?>px;
-        }
-      }
+        }}
         <?php
       }
       ?>

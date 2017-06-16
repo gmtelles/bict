@@ -8,7 +8,7 @@
     $text_footer_theme_copyright_message = get_theme_mod('regina_lite_footer_copyright', esc_html__( '&copy; Copyright 2016. All Rights Reserved.', 'regina-lite' ) )
 
 ?>
-<footer id="footer">
+<footer id="footer" style="clear:both;">
     <div class="container">
         <div class="row">
             <?php if( is_active_sidebar( 'footer-sidebar-1' ) ){ ?>

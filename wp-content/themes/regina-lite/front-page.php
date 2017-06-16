@@ -46,6 +46,10 @@ else:
 	if ( $speak_general_show == 1 ):
 		get_template_part( 'sections/section', 'home-speak' );
 	endif;
+        
+        if(function_exists( 'wp_bannerize' )):
+                wp_bannerize( 'group=links úteis' );
+        endif;
 
 	
 endif;

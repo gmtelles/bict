@@ -140,7 +140,7 @@ $book_appointment_button_label = get_theme_mod( 'regina_lite_book_appointment_bu
 			</div><!--.col-lg-3-->
 			<?php if ( $features_general_button_text && $features_general_button_url ): ?>
 				<div class="col-xs-12 text-center">
-					<a href="<?php echo esc_url( $features_general_button_url ); ?>" class="button dark outline" title="<?php echo esc_attr( $features_general_button_text ); ?>"><?php echo esc_html( $features_general_button_text ); ?>
+					<a href="<?php //echo esc_url( $features_general_button_url ); ?>#" class="button dark outline" title="<?php echo esc_attr( $features_general_button_text ); ?>"><?php echo esc_html( $features_general_button_text ); ?>
 						<span class="nc-icon-glyph arrows-1_bold-right"></span></a>
 				</div>
 			<?php endif; ?>

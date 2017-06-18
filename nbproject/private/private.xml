@@ -3,7 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/bict/wp-content/plugins/slider-wd/frontend/views/WDSViewSlider.php</file>
+            <file>file:/C:/wamp64/www/bict/wp-content/plugins/wp-bannerize/Classes/wpBannerizeWidget.php</file>
+            <file>file:/C:/wamp64/www/bict/wp-content/plugins/wp-bannerize/css/wpBannerizeStyleInline.css</file>
+            <file>file:/C:/wamp64/www/bict/wp-content/plugins/wp-bannerize/Classes/wpBannerizeFrontend.php</file>
+            <file>file:/C:/wamp64/www/bict/wp-content/themes/regina-lite/front-page.php</file>
+            <file>file:/C:/wamp64/www/bict/wp-content/themes/regina-lite/sections/section-news.php</file>
         </group>
     </open-files>
 </project-private>

@@ -27,6 +27,10 @@ else:
 
 	get_template_part( 'sections/section', 'home-slider' );
         
+        if ( true ):
+		get_template_part( 'sections/section', 'o-curso' );
+	endif;
+        
         if ( $blog_news_general_show == 1 ):
 		get_template_part( 'sections/section', 'news' );
 	endif;

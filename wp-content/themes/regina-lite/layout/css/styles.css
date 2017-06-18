@@ -10794,8 +10794,28 @@ ol li {
 #call-out h1, #call-out p {
 	color: #fff; }
 
+
+/* ---------------------------------------------------------------------- */
+/*  Sobre o Curso
+/* ---------------------------------------------------------------------- */
+
+#sobre-o-curso {clear: both; padding: 30px 0;}
+#sobre-o-curso h2, hr {text-align: center; margin: 0 auto;}
+#sobre-o-curso .title-sobre-o-curso {margin-bottom: 20px; text-align: center;}
+#sobre-o-curso p {font-family: 'Open-sans', sans-serif; text-align: justify; font-size: 0.9em; text-indent: 30px;}
+#sobre-o-curso .sobre-right {background: #222; padding: 10px 15px 15px 15px;}
+#sobre-o-curso .sobre-right h3 {color: #dcdcdc;}
+#sobre-o-curso ul li {font-family: 'Open-sans', sans-serif; text-align: justify; font-size: 0.8em; list-style:disc; color: #666; margin-left: 15px; color: #fff;}
+#sobre-o-curso img {max-width: 600px;}
+
+
+
+/* ---------------------------------------------------------------------- */
+/*  Notícias
+/* ---------------------------------------------------------------------- */
+
 #section-news {
-    margin: 0; padding: 30px 0;
+    margin: 0; padding: 30px 0; background: #ebebeb;
 }
 
 #section-news .section-info {

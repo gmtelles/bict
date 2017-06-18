@@ -157,7 +157,7 @@ $image_meta_general_4 = get_post_meta( $image_id_general_4 );
 		</div><!--#testimonials-slider-->
                 <!-- BOTÃO VEJA MAIS-->
 				<div class="col-xs-12 text-center">
-					<a href="infraestrutura" class="button white outline">Veja Mais
+					<a href="#" class="button white outline">Veja Mais
 						<span class="nc-icon-glyph arrows-1_bold-right"></span></a>
 				</div>
 	</div><!--.testimonials-->
